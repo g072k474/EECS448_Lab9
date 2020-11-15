@@ -1,0 +1,64 @@
+h1{
+    background-color: chartreuse;
+    border: 2px solid black;
+    text-align: center;
+}
+
+body{
+    background-color: darkred;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.items{
+    text-align: center;
+    background-color: cyan;
+    border: 2px solid black;
+    padding: 2rem;
+}
+
+.login{
+    text-align: center;
+    background-color: red;
+    border: 2px solid black;
+    padding: 2rem;
+}
+
+.ship{
+    background-color: lime;
+    text-align: center;
+    border: 2px solid black;
+    padding: 2rem;
+}
+
+.buttons{
+    margin-left: 45%;
+}
+
+h3{
+text-align:center;
+background-color: chartreuse;
+}
+
+
+table{
+  margin-left: 38%;
+  text-align:center;
+  border-collapse:collapse;
+}
+
+.LB{
+  color:black;
+  background-color: lightblue;
+  border:solid black;
+  border-width:1px;
+  padding: 3px;
+}
+
+.LG{
+   color:black;
+  background-color: lightgreen;
+  border:solid black;
+  border-width:1px;
+  padding: 3px;
+}

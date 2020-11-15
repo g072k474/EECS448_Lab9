@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Grant's Store</title>
+        <h1>Welcome to Keeblers D&D Store</h1>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form id='store' action="customerBackend.php" method="post">
+            <div class="Items">
+                <input type="number" name="game" id="game" min="0" size="1"> Ellibrium Complete Edition ($60.00)<br>
+                <input type="number" name="6dice" id="6dice" min="0" size="1"> 6 Sided Dice ($1.50)<br>
+                <input type="number" name="20dice" id="20dice" min="0" size="1"> 20 Sided Dice ($2.00)<br><br>
+            </div>
+            <div class="login">
+                Username:<input type="text" name="username" id="username"><br>
+                Password:<input type="password" name="password" id="password"><br>
+            </div>
+            <div class="ship">
+                How Would You Like Your Order to be Shipped<br>
+                <input type="radio" name="ship" id="Free" value="Free">Free 7 Day<br>
+                <input type="radio" name="ship" id="Overnight" value="Overnight">$50.00 over night<br>
+                <input type="radio" name="ship" id="Three Days" value="Three Days">$5.00 three day<br>
+            </div>
+            <div class="buttons">
+                <input type="reset" name="Reset">
+                <input type="submit" name="Submit">
+            </div>
+        </form>
+        <script src="formChecker.js"></script>
+    </body>
+</html>
