@@ -1,0 +1,21 @@
+body{
+    background-color: mediumblue;
+    border: 5px solid red;
+}
+
+.Menu{
+    position: absolute;
+    cursor: pointer;
+    background-color: red;
+    border: 3px solid yellow;
+}
+
+a{
+    padding: 5.23rem;
+
+}
+
+a:hover{
+    height: 50px;
+    color: blue;
+}
